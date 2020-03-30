@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Calculator with HTML and JS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body id="body">
+    <h1>Calculator</h1>
+
+    First Number: &nbsp;<input type="text" id="num1" maxlength="7">
+    <br><br> Second Number: <input type="text" id="num2" maxlength="7"><br><br>
+    <select id="operator">
+    <option value="add">Add</option>
+    <option value="min">Subtract</option>
+    <option value="mul">Multiply</option>
+</select>
+    <button id="myBtn" type="button" onclick="calc()">Calculate</button>
+    <br><br> Your answer is : <input type="text" id="result"><br><br>
+</body>
+
+</html>
